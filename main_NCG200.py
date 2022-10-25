@@ -46,7 +46,7 @@ def main_NCG200():
                 fpath, ext = os.path.splitext(f)
                 head,tail = os.path.split(fpath)
                 data = np.array(pd.read_csv(f,sep=',').iloc[:,0])
-                sF = 128
+                sF = 130
          
                 highpass = 5 #/ nyq
                 lowpass = 63.9999
